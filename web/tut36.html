@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript String and its methods</title>
+</head>
+<body>
+    
+    <script>
+        var str="This is a String.";
+        console.log(str);
+        //first occurrence of a substring
+        var position=str.indexOf('is');
+        console.log(position);
+        //last occurrence of a substring
+        position=str.lastIndexOf('is');
+        console.log(position);
+        // var substr=str.slice(1,10);
+        // console.log(substr);
+        //differ from slice, it accepts -ve values as parameter
+        // var sub=str.substring(1,5);
+        // console.log(sub);
+        //in substr,second parameter decide length of string that should be returned
+        // var sub1=str.substr(1,5);
+        //  console.log(sub1);
+        // var sub2=str.replace('string','Neil');
+        //  console.log(sub2);
+        //  console.log(str);
+        // console.log(str.toUpperCase());
+        // console.log(str.toLowerCase());
+        // var news=str.concat('New way')
+        // console.log(news);
+        // var strWithWhitespaces="     this contains     whitespaces";
+        // console.log(strWithWhitespaces);
+        // console.log(strWithWhitespaces.trim());
+        // var ch=str.charAt(10);
+        var ch2=str.charCodeAt(5);
+        console.log(ch2);
+
+    </script>
+</body>
+</html>

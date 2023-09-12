@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="p10.xsd">
+  <emp>
+     <name>Ankur</name>
+     <salary>3000</salary>
+  </emp>
+  <emp>
+     <name>Akilesh</name>
+     <salary>3200</salary>
+  </emp>
+  <emp>
+     <name>Amrit</name>
+     <salary>5000</salary>
+  </emp>
+  <emp>
+     <name>Anvesh</name>
+     <salary>4500</salary>
+  </emp>
+</employee>

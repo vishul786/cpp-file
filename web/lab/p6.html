@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h2 align="center">CUCET 2XXX</h2>
+        <h3 align="center">Registration Form</h3>
+        <form action="">
+            <fieldset>
+                <!-- <legend>
+                    <h1 align="center">Registration Form</h1>
+                </legend> -->
+            <div class="form-group">
+                <label for="name">Applicant Name :</label>
+                <input type="text" name="firstname" id="name" placeholder="Enter first name" >
+                <input type="text" name="lastname" id="name" placeholder="Enter last name" >
+            </div><br>
+            <div class="form-group">
+                <label for="name">Father's Name :</label>
+                <input type="text" name="name" id="name" placeholder="Enter father's name" >
+            </div><br>
+            <div class="form-group">
+                <label for="address">Address :</label>
+                <label for="address">Village :</label>
+                <input type="village" name="village" id="village" placeholder="" >
+                <label for="address">District :</label>
+                <input type="district" name="district" id="district" placeholder="" >
+                <label for="address">State :</label>
+                <input type="state" name="state" id="state" placeholder="" >
+            </div><br>
+            <div class="form-group">
+                <label for="name"> Enter Password :</label>
+                <input type="password" name="password" id="password"  placeholder="Required 8 characters" required >
+            </div><br>
+            <div class="form-group">
+                <label for="name">Re-type Password :</label>
+                <input type="password" name="password" id="password"  placeholder="Required 8 characters" required >
+            </div><br>
+            <div class="form-group">
+                <label for="gender">Gender :</label>
+                <input type="radio" name="gender" >Male
+                <input type="radio" name="gender" >Female
+            </div><br>
+            <div class="form-group">
+                <label for="courses">Courses :</label>
+                <select name="course" id="course">
+                    <option placeholder="select">Select</option>
+                    <option value="it">IT</option>
+                    <option value="cse">CSE</option>
+                    <option value="mechanical">Mechanical</option>
+                    <option value="ece">Electronics and Communication</option>
+                    <option value="elec">Electrical</option>
+                </select>
+            </div><br>
+            <div class="form-group">
+                <label for="age">Age :</label>
+                <input type="date" name="date" >
+            </div><br>
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" name="email-address" id="email" placeholder="abc@email.com" >
+            </div><br>
+            <div class="form-group">
+                <label for="photo">Upload Photo :</label>
+                <input type="file"   >
+            </div><br>
+            <div class="form-group">
+                <label for="phone">Mobile Number :</label>
+                <input type="phone" name="name" id="phone" maxlength="10"required >
+            </div><br>
+            <div class="form-group">
+                <input type="submit" value="Register" >
+                <!-- <input type="reset" value="Reset" > -->
+                <input type="reset" value="Cancel" >
+            </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
